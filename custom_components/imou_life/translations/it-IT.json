@@ -11,7 +11,7 @@
         }
       },
       "discover": {
-        "title": "Dispositivi Individuati",
+        "title": "Dispositivi individuati",
         "data": {
           "discovered_device": "Seleziona il dispositivo da aggiungere:",
           "device_name": "Rinominalo in"
@@ -28,7 +28,7 @@
     "error": {
       "not_connected": "Azione richiesta ma non ancora connesso alle API",
       "connection_failed": "Impossibile collegarsi alle API",
-      "invalid_configuration": "App Id o App Secret non corretti",
+      "invalid_configuration": "App ID o App Secret non corretti",
       "not_authorized": "Non autorizzato ad operare sul dispositivo o ID dispositivo non valido",
       "api_error": "Errore API remote",
       "invalid_reponse": "Risposta malformata o inaspettata dalle API",
@@ -40,11 +40,11 @@
     "step": {
       "init": {
         "data": {
-          "scan_interval": "Intervallo di aggiornamento (secondi)",
-          "api_timeout": "Timeout delle API (secondi)",
+          "scan_interval": "Intervallo di aggiornamento (in secondi)",
+          "api_timeout": "Timeout delle API (in secondi)",
           "callback_url": "URL di callback",
-          "camera_wait_before_download": "Attendi prima di scaricare l'immagine dalla camera (secondi)",
-          "wait_after_wakeup": "Attendi dopo aver svegliato un dispositivo dormente (secondi)"
+          "camera_wait_before_download": "Attendi prima di scaricare l'immagine dalla camera (in secondi)",
+          "wait_after_wakeup": "Attendi dopo aver svegliato un dispositivo dormiente (in secondi)"
         }
       }
     }
